@@ -12,33 +12,36 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    .container {
+    .container{
       display: flex;
-      
       justify-content: center;
       align-items: center;
       font-family: 'Red Hat Display', sans-serif;
-      background-color: hsl(0, 0%, 100%);
+      min-height: 100vh;
+      
     }
     .sedan{ 
       background-color: hsl(31,77%,52%);
+      border-radius: 10px 0 0 10px;
     }
     .suvs{
       background-color: hsl(184, 45%,44%);
     }
     .luxury{
       background-color: hsl(179, 100%, 13%);
+      border-radius: 0 10px 10px 0;
     }
-    .container div{
-      height: 350px;
-      width: 30%;
-      padding: 20px;
-      border-radius: 10px;
+    .container > div{
+      height: 400px;
+      width: 220px;
+      padding: 30px;
+      
     }
     .body{
+      background-color: white;
       padding: 20px;
-      box-shadow: 10px;
-      border-radius: 10px;
+      box-shadow: 2px;
+      border-radius: 20px;
     }
     .button{
       background-color: hsl(0, 0%, 100%);
